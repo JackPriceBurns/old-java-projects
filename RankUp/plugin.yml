@@ -1,0 +1,7 @@
+name: Rankup
+main: com.jack.rankup.Rankup
+version: 0.1
+commands:
+   rankup:
+      description: The rankup command.
+      usage: /rankup

@@ -1,0 +1,7 @@
+name: iClasses
+version: 0.0.1
+main: com.jack.iclasses.IClasses
+commands:
+   test:
+      description: test
+      usage: /test

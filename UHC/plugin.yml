@@ -1,0 +1,11 @@
+name: UHC
+version: 0.0.1
+main: com.jack.uhc.UHC
+commands:
+   vote:
+      description: The Root Voting Command
+      usage: /<command>
+   teamchat:
+      aliases: tc
+      description: The Root TeamChat Command
+      usage: /<command>

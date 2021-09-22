@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import java.net.URL?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ddd;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.LoginSceneController">
+    <stylesheets>
+        <URL value="@../css/loginForm.css" />
+    </stylesheets>
+    <top>
+        <Pane prefHeight="60.0" prefWidth="600.0" style="-fx-background-color: #999;" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="53.0" fitWidth="43.0" layoutX="548.0" layoutY="9.0" onMouseClicked="#close" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/exit.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+    </top>
+    <center>
+        <GridPane alignment="CENTER" hgap="5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340" prefWidth="600" vgap="5">
+           <children>
+               <TextField fx:id="usernameField" maxHeight="40" maxWidth="300" minHeight="40" minWidth="300" prefHeight="40" prefWidth="300" promptText="Username" styleClass="UsernameField" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+               <PasswordField fx:id="passwordField" maxHeight="40" maxWidth="300" minHeight="40" minWidth="300" prefHeight="40" prefWidth="300" promptText="Password" styleClass="PasswordField" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+               <Pane maxHeight="20" maxWidth="300" minHeight="20" minWidth="300" prefHeight="20" prefWidth="300" GridPane.rowIndex="3" />
+               <Button maxHeight="60" maxWidth="300" minHeight="60" minWidth="300" onMouseClicked="#login" prefHeight="60" prefWidth="300" styleClass="LoginButton" GridPane.columnIndex="0" GridPane.rowIndex="4">Login
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Label style="-fx-padding: -20 0 20 0;" text="Login">
+               <font>
+                  <Font name="Arial" size="41.0" />
+               </font>
+            </Label>
+           </children>
+         <columnConstraints>
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+    </center>
+</BorderPane>

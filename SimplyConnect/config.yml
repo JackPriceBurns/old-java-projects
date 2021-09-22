@@ -1,0 +1,15 @@
+options:
+  server:
+    host: 127.0.0.1
+    port: 1024
+    isMain: true
+    chat:
+      joinMsg: "[&6{name}&f] &6Has Entered"
+      leaveMsg: "[&6{name}&f] &6Has Exited"
+      joinMsgEnabled: true
+      leaveMsgEnabled: true
+  connections:
+    servers: ['127.0.0.1/1']
+  chat:
+    format: "[&6{server}&f][&6{name}&f]&f:"
+    percentMaxCaps: 50.0

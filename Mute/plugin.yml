@@ -1,0 +1,7 @@
+name: Mute
+version: 0.0.1
+main: com.jack.mute.Mute
+commands:
+   mute:
+      description: Mute player
+      usage: /mute <player>

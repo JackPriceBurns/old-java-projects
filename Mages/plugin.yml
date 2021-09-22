@@ -1,0 +1,10 @@
+name: Mages
+version: 0.0.1
+main: com.jack.mages.Mages
+commands:
+   wand:
+      description: The Root Mages Command
+      usage: /<command>
+   w:
+      description: The Root Mages Command
+      usage: /<command>

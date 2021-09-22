@@ -1,0 +1,43 @@
+name: Essentials
+version: 0.2.36
+main: com.jack.essentials.Essentials
+commands:
+   spawn:
+      description: Teleports the player to spawn.
+      usage: /spawn
+   setspawn:
+      description: Sets the spawn point for everyone.
+      usage: /setspawn
+   warp:
+      description: Teleports the player to the specified warp if it exists.
+      usage: /warp {warp}
+   warps:
+      description: Lists all of the warps.
+      usage: /warps
+   setwarp:
+      description: Sets a warp for everyone else and that player to warp to.
+      usage: /setwarp {warpname}
+   delwarp:
+      description: Deletes a set warp.
+      usage: /delwarp {warpname}
+   home:
+      description: Teleports the player to their home if set.
+      usage: /home
+   sethome:
+      description: Sets the player's home.
+      usage: /sethome
+   tp:
+      description: Teleports the player to the specified player.
+      usage: /tp {player}
+   tphere:
+      description: Teleports the specified player to the player.
+      usage: /tphere {player}
+   essentials:
+      description: An admin command for Essentials.
+      usage: /essentials
+   gm:
+      description: Sets the players gamemode to the gamemode specified.
+      usage: /gm {gamemode}
+   nick:
+      description: Sets the players nickname.
+      usage: /nick {nickname}

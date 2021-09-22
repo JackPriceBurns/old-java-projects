@@ -1,0 +1,10 @@
+name: EnderPrison_Cells
+version: 1.0.0
+main: com.jack.prisoncells.PrisonCells
+commands:
+   prisoncells:
+      description: The Root EnderPrison_Cells Command
+      usage: /<command>
+   pc:
+      description: The Root EnderPrison_Cells Command
+      usage: /<command>

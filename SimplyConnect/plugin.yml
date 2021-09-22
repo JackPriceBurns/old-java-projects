@@ -1,0 +1,19 @@
+name: SimplyConnect
+main: com.aim.coltonjgriswold.SimplyConnect
+version: 2.2.1
+author: coltonj96
+depend: [Vault]
+softdepend: [Essentials]
+
+commands:
+ sc:
+   description: Primary command for SimplyConnect
+   usage: /<command> <chat> [on|off]
+
+permissions:
+  simplyconnect.bypass.caps:
+    description: Bypass caps function
+  simplyconnect.bypass.chat:
+    description: Bypass Chat function
+  simplyconnect.commands.chat.stop:
+    description: Allows Use Of The Stop Chat Command

@@ -1,0 +1,7 @@
+# Config File for PrisonCells
+MySQL:
+    host: 'localhost'
+    user: 'root'
+    pass: 'root'
+    port: '3306'
+    db: 'minecraft'

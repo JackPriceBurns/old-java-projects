@@ -1,0 +1,14 @@
+name: MMC_Warnings
+version: 0.0.1
+main: com.mcmorcraft.mmcwarnings.Warnings
+commands:
+   report:
+      description: The Root MMCWarnings Command
+      usage: /<command> [player]
+      permission: mmcwarnings.basic
+      permission-message: You don't have <permission>
+   userinfo:
+      description: The Root MMCWarnings Command
+      usage: /<command> [player]
+      permission: mmcwarnings.basic
+      permission-message: You don't have <permission>
